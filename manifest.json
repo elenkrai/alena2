@@ -20,5 +20,21 @@
       "purpose": "any"
     }
   ],
+  "screenshots": [
+    {
+      "src": "mbsrc.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop screenshot"
+    },
+    {
+      "src": "mb.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile screenshot"
+    }
+  ],
   "id": "/alena2/"
 }
