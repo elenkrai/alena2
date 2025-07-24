@@ -1393,21 +1393,24 @@
 	<section id="reviews" >
     <h2>Отзывы пользователей</h2>
 
-    <?php
-    $link = mysqli_connect("localhost", "root", "", "Feedback");
+    <section>
+    <div class="Review">
+        <h4>Алексей <small>(alex@example.com)</small></h4>
+        <p>Отличный хэлпер, пользуюсь всегда!</p>
+        <hr>
+    </div>
 
-    $result = mysqli_query($link, "SELECT * FROM Proposal ORDER BY ID DESC");
+    <div class="Review">
+        <h4>Мария <small>(maria@example.com)</small></h4>
+        <p>Пойду учить слова с Petroleum English Helper.</p>
+        <hr>
+    </div>
 
-    while ($row = mysqli_fetch_assoc($result)) {
-        echo '<div class="Review">';
-        echo '<h4>' . $row['Name'] . ' <small>(' . $row['Email'] . ')</small></h4>';
-        echo '<p>' . nl2br($row['Review']) . '</p>';
-        echo '<hr>';
-        echo '</div>';
-    }
-
-    mysqli_close($link);
-    ?>
+    <div class="Review">
+        <h4>Иван <small>(ivan@example.com)</small></h4>
+        <p>Очень удобный сервис, помогает в изучении профессиональной лексики.</p>
+        <hr>
+    </div>
 </section>
 
 
