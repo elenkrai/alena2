@@ -2,7 +2,7 @@
   "name": "Petroleum English Helper",
   "short_name": "PetroEnglish",
   "description": "Помощник по английскому языку для нефтегазовой отрасли. Словарь, примеры и грамматика для специалистов.",
-  "start_url": "./sait.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#ff6d00",
